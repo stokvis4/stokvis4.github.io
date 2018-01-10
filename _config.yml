@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Will Stokvis
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Data Science Student
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars2.githubusercontent.com/u/15704990?s=400&u=c13cb725e9c00132249c1cb6cd9d5db8e9bfbc33&v=4
 
 #
 # Flags below are optional
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: 
   instagram:
   linkedin:
   pinterest:
