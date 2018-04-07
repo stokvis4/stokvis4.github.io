@@ -7,7 +7,7 @@ title: Project McNulty
 
 For this project, I dove into nonpartisan, unbiased, boring world of primetime cable news shows (who am I kidding, that wouldn't be any fun). I chose two hosts from CNN, Fox News, and MSNBC (the so-called "Big 3" Networks). These networks allowed me to access and compare sources across the political spectrum. The image below shows news sources of all types. I've summarized each choice below the image.
 
-<img src='images/News_Sources.jpg'>
+<img src='/images/News_Sources.jpg'>
 
 * CNN
 	* Description - Despite Trump's continual assualt on CNN for their liberal bias, CNN has embraced the sensationalism wholeheartedly. 
@@ -111,7 +111,7 @@ df_rm['Content'] = df_rm['Content'].apply(remove_msnbc_copyright)
 ```
 
 
-![head](images/Maddow_head.png "head")
+![head](/images/Maddow_head.png "head")
 
 
 ### Cleaning Process
