@@ -206,7 +206,7 @@ Additionally, for each transcript, if the host is on vacation, I denote the cont
 At this point, I've gotten to the cool part of the analysis. With my cleaned host-only transcripts, I can start performing sentiment analysis on them. I chose to use VADER Sentiment analyis (package can be found here: https://github.com/cjhutto/vaderSentiment). VADER is a powerful tool that allowed me to plot the positive and negative sentiment on each host.
 
 
---- Insert GIF of Sentiment analysis ---
+![gif of sentiment](images/sentiment.png)
 
 In the visualization above, you can easily see the positive (on the x-axis) and negative (on the y-axis) sentiment of the hosts by network. Visual analysis easily shows that Fox News hosts embrace emotion, particularly negative emotion, in their broadcasts. Stealing from behavioral economics, this increased negative sentiment highlights the negativity bias. 
 
