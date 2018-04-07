@@ -111,6 +111,7 @@ df_rm['Content'] = df_rm['Content'].apply(remove_msnbc_copyright)
 ```
 
 
+##### DataFrame Preview
 <img src='//stokvis4.github.io/images/Maddow_head.png'>
 
 
@@ -203,7 +204,7 @@ Additionally, for each transcript, if the host is on vacation, I denote the cont
 
 ##### General Sentiment
 
-At this point, I've gotten to the cool part of the analysis. With my cleaned host-only transcripts, I can start performing sentiment analysis on them. I chose to use VADER Sentiment analyis (package can be found here: https://github.com/cjhutto/vaderSentiment). VADER is a powerful tool that allowed me to plot the positive and negative sentiment on each host.
+At this point, I've gotten to the cool part of the analysis. With my cleaned host-only transcripts, I can start performing sentiment analysis on them. I chose to use VADER Sentiment analyis (package can be found [here](https://github.com/cjhutto/vaderSentiment)). VADER is a powerful tool that allowed me to plot the positive and negative sentiment on each host.
 
 
 <img src='//stokvis4.github.io/images/sentiment.png'>
@@ -219,11 +220,11 @@ Wikipedia says Negativity Bias "refers to the notion that, even when of equal in
 >
 >But here’s the key difference between carrots and sticks. If you miss out on a carrot today, you’ll have a chance at more carrots tomorrow. But if you fail to avoid a stick today – WHAP! – no more carrots forever. Compared to carrots, sticks usually have more urgency and impact.
 
-Source: http://www.rickhanson.net/how-your-brain-makes-you-easily-intimidated/
+Source: [http://www.rickhanson.net/how-your-brain-makes-you-easily-intimidated/]
 
-A more relevant example may be why the NRA is so successful at preventing the gun control. According to research, conservatives have larger amygdalae, a cluster of the brain believed to beassociated with basic pleasure and fear responses (source: https://www.vox.com/2015/12/4/9845146/mass-shootings-gun-control). This publication put out in 2012 by the NRA highlights the "threat" Obama was to gun owners.
+A more relevant example may be why the NRA is so successful at preventing the gun control. According to research, conservatives have larger amygdalae, a cluster of the brain believed to beassociated with basic pleasure and fear responses ([source](https://www.vox.com/2015/12/4/9845146/mass-shootings-gun-control)). This NRA ad shows how they utilize negative sentiment with loss aversion to tell their message.
 
-![NRA attacks Obama](https://i.pinimg.com/originals/e9/fa/d9/e9fad921e5ee739c75e8962afafa0d80.jpg00 "Obama")
+<img src='//stokvis4.github.io/images/nra-obama.jpg'>
 
 
 This, in combination with loss aversion bias, shows one of the reasons why the NRA is so successful at getting voters to turn out.
@@ -233,7 +234,7 @@ This, in combination with loss aversion bias, shows one of the reasons why the N
 I also used sentiment to understand 2017 politically and was able to map significant political events to divergences in sentiment between Rachel Maddow and Sean Hannity.
 
 
-<img src='//stokvis4.github.io/images/Timeline.png'>
+<img src='//stokvis4.github.io/images/timeline.png'>
 
 
 For the above graph, I used a 5 day moving average in order to remove rapid positive and negative swings that were common for each host. 
