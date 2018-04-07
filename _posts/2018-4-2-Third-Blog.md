@@ -7,7 +7,7 @@ title: Project McNulty
 
 For this project, I dove into nonpartisan, unbiased, boring world of primetime cable news shows (who am I kidding, that wouldn't be any fun). I chose two hosts from CNN, Fox News, and MSNBC (the so-called "Big 3" Networks). These networks allowed me to access and compare sources across the political spectrum. The image below shows news sources of all types. I've summarized each choice below the image.
 
-<img src='//stokvis.github.io/images/News_Sources.jpg'>
+<img src='//stokvis.github.io/images/Topic_Modeling.png'>
 
 * CNN
 	* Description - Despite Trump's continual assualt on CNN for their liberal bias, CNN has embraced the sensationalism wholeheartedly. 
@@ -111,7 +111,7 @@ df_rm['Content'] = df_rm['Content'].apply(remove_msnbc_copyright)
 ```
 
 
-<img src='//stokvis.github.io/images/Maddow_head.png'>
+<img src='//stokvis.github.io/images/Topic_Modeling.png'>
 
 
 ### Cleaning Process
@@ -179,17 +179,17 @@ The process is previewed below on a small segment of the entire transcript from 
 
 Remove all '\n' characters. Those characters are highlighted below in yellow:
 
-<img src='//stokvis.github.io/images/Transcript_highlighting_newlines.jpg'>
+<img src='//stokvis.github.io/images/Topic_Modeling.png'>
 
 
 Split the content into blocks using a regex statement. The following image contains the list that remains after the split:
 
-<img src='//stokvis.github.io/images/Transcript_in_list.jpg'>
+<img src='//stokvis.github.io/images/Topic_Modeling.png'>
 
 
 The final product contains only the transcript of the host while removing any unwanted characters that remain:
 
-<img src='//stokvis.github.io/images/Final_Transcript.jpg'>
+<img src='//stokvis.github.io/images/Topic_Modeling.png'>
 
 
 This process is repeated for every transcript from each host. The process is slightly more complicated for Tucker Carlson since it is pulled from Archive.org. In this specific case, advertisements and time markings are removed from the document. 
@@ -206,7 +206,7 @@ Additionally, for each transcript, if the host is on vacation, I denote the cont
 At this point, I've gotten to the cool part of the analysis. With my cleaned host-only transcripts, I can start performing sentiment analysis on them. I chose to use VADER Sentiment analyis (package can be found here: https://github.com/cjhutto/vaderSentiment). VADER is a powerful tool that allowed me to plot the positive and negative sentiment on each host.
 
 
-<img src='//stokvis.github.io/images/sentiment.png'>
+<img src='//stokvis.github.io/images/Topic_Modeling.png'>
 
 In the visualization above, you can easily see the positive (on the x-axis) and negative (on the y-axis) sentiment of the hosts by network. Visual analysis easily shows that Fox News hosts embrace emotion, particularly negative emotion, in their broadcasts. Stealing from behavioral economics, this increased negative sentiment highlights the negativity bias. 
 
@@ -233,7 +233,7 @@ This, in combination with loss aversion bias, shows one of the reasons why the N
 I also used sentiment to understand 2017 politically and was able to map significant political events to divergences in sentiment between Rachel Maddow and Sean Hannity.
 
 
-<img src='//stokvis.github.io/images/Timeline.png'>
+<img src='//stokvis.github.io/images/Topic_Modeling.png'>
 
 
 For the above graph, I used a 5 day moving average in order to remove rapid positive and negative swings that were common for each host. 
