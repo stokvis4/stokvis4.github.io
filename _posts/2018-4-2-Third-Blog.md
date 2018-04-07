@@ -7,7 +7,7 @@ title: Project McNulty
 
 For this project, I dove into nonpartisan, unbiased, boring world of primetime cable news shows (who am I kidding, that wouldn't be any fun). I chose two hosts from CNN, Fox News, and MSNBC (the so-called "Big 3" Networks). These networks allowed me to access and compare sources across the political spectrum. The image below shows news sources of all types. I've summarized each choice below the image.
 
-![network comparison](images/News_Sources.jpg)
+<img src='images/News_Sources.jpg'>
 
 * CNN
 	* Description - Despite Trump's continual assualt on CNN for their liberal bias, CNN has embraced the sensationalism wholeheartedly. 
@@ -179,7 +179,7 @@ The process is previewed below on a small segment of the entire transcript from 
 
 Remove all '\n' characters. Those characters are highlighted below in yellow:
 
-![no new line characters](images/Transcript_highlighting_newlines.jpg "new lines")
+![no new line characters](images/Transcript_highlighting_newlines.jpg )
 
 
 Split the content into blocks using a regex statement. The following image contains the list that remains after the split:
