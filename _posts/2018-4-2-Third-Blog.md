@@ -227,8 +227,6 @@ A more relevant example may be why the NRA is so successful at preventing the gu
 <img src='//stokvis4.github.io/images/nra-obama.jpg'>
 
 
-This, in combination with loss aversion bias, shows one of the reasons why the NRA is so successful at getting voters to turn out.
-
 ##### Sentiment over Time
 
 I also used sentiment to understand 2017 politically and was able to map significant political events to divergences in sentiment between Rachel Maddow and Sean Hannity.
